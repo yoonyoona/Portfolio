@@ -915,7 +915,12 @@ a.active {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
-
+    #home{
+        background: url(../img/banner768.png) center top/cover !important;
+        background-size: cover;
+        height: 100vh;
+        overflow: hidden;
+    }
     .project_btn {
         margin: 2px 0.5px;
     }
@@ -927,12 +932,6 @@ a.active {
         margin-left: 6%;
     }
 
-    #home{
-        background: url(../img/banner768.png);
-        background-size: cover;
-        height: 100vh;
-        overflow: hidden;
-    }
 }
 
 @media (max-width: 768px) {
@@ -940,6 +939,27 @@ a.active {
         width: 90%;
         left: 2em;
     }
+    #about{
+        background: #ebf3f7;
+       
+    }
+    .atext{
+         width: 100%;
+         height: auto;
+        margin-left: 0;
+        background: #fff;
+        padding: 30px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: 0 0 8px rgba(57, 100, 148, 0.3);
+    }
+    #about .blue{
+        text-align: center;
+    }
+    .atext br{
+        display: none;
+    }
+
     
 }
 
@@ -987,19 +1007,18 @@ a.active {
     .swiper-button-prev {
         display: none;
     }
-    #about{
-        background: url(../img/abo2.png) no-repeat center;
-    }
+    
     .banner_b_cloud{
 display: none;
     }
 }
-
 @media (max-width: 374px) {
     .about-border {
         display: none;
     }
-
+    .exper_icon{
+        display: none;
+    }
     .chart span.title {
         font-size: 1.2rem;
         line-height: 1.5;
